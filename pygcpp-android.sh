@@ -1,7 +1,7 @@
 #!/bin/bash
 
 pkg update && pkg upgrade -y
-pkg install python clang python-pip git openssl -y
+pkg install wget python clang python-pip git openssl -y
 git clone https://github.com/LostRuins/koboldcpp && cd koboldcpp
 make
 echo -e "Downloading the Pygmalion 6B model ... "
