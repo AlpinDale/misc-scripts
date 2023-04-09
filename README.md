@@ -6,3 +6,7 @@ This repo contains various scripts that I need for guides and/or making stuff ru
 ```bash
 curl https://raw.githubusercontent.com/AlpinDale/misc-scripts/main/pygcpp-android.sh | bash
 ```
+## Koboldcpp Linux
+```bash
+curl https://raw.githubusercontent.com/AlpinDale/misc-scripts/main/gptq-kobold.sh | bash
+```
