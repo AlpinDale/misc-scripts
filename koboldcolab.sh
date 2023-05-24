@@ -122,10 +122,10 @@ if [ "$init" != "skip" ]; then
             git=https://github.com/henk717/KoboldAI-Client
         fi
         if [ "$git" == "gptq" ]; then
-            git='https://github.com/0cc4m/KoboldAI -b latestgptq --recurse-submodules'
+            git=https://github.com/0cc4m/KoboldAI
         fi
     else
-        git=https://github.com/koboldai/KoboldAI-Client
+        git=https://github.com/0cc4m/KoboldAI
     fi
 
     mkdir /content/KoboldAI-Client
