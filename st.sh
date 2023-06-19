@@ -12,9 +12,10 @@ if [ ! -d "SillyTavern" ]; then
     popd
     node SillyTavern/server.js
 else
-    cd SillyTavern
+    pushd SillyTavern
     git pull
     npm install
-    node server.js
+    popd
+    node SillyTavern/server.js
 fi
 
